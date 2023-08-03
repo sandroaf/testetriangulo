@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <script src="triangulo.js"></script>
     <title>Teste Triangulo</title>
 </head>
 <body>
     <h3>Teste Triangulo</h3>
-    <p>1. Faça um programa que leia três números e informe se eles podem ser os lados de um triângulo. (A soma de dois lados deve ser sempre maior que o trerceiro lado). </p>
     <div id="conteudo">
-        <form action="#" method="get" onsubmit="fTestaTriangulo()">
+        <p>1. Faça um programa que leia três números e informe se eles podem ser os lados de um triângulo. (A soma de dois lados deve ser sempre maior que o trerceiro lado). </p>
+        <br>
+        <form action="" method="get" onsubmit="fTestaTriangulo()" onreset="fLimpar()">
             <label for="iLado1">Informe o tamanho em cm dos três lados de um possível triangulo</label><br>
             <input type="number" id="iLado1" step="0.01"> | 
             <input type="number" id="iLado2" step="0.01"> | 

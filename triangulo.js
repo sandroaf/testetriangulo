@@ -13,3 +13,8 @@ function fTestaTriangulo() {
         }
     return false; //Não enviar para a Action do Form
 }
+
+function fLimpar() {
+    document.querySelector("#pResultado").innerHTML = "...";
+    return true;
+}
